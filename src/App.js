@@ -1,11 +1,10 @@
 import './App.css';
-import Book from './Book';
+import Inventory from './Inventory';
 
 function App() {
   return (
     <div className="App">
-      <Book title="Lord of the Rings" author="JRR Tolkien"/>
-      <Book />
+      <Inventory/>
     </div>
   );
 }
