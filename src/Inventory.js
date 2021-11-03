@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from './Book';
+import Cd from './Cd';
 import './Inventory.css';
 
 function Inventory(props) {
@@ -7,6 +8,7 @@ function Inventory(props) {
                 <h1>This is a collection of Items</h1>
                 <Book title="Lord of the Rings" author="JRR Tolkien"/>
                 <Book />
+                <Cd title="Folklore" artist="Taylor Swift"/>
             </div>
   }
 
